@@ -1,0 +1,12 @@
+#######Mysql数据库########
+jdbcUrl = jdbc:mysql://127.0.0.1/jfinal_demo?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+user = root
+password = root
+devMode = true
+
+#######Oracle数据库########  test_blog
+#jdbcUrl = jdbc:oracle:thin:@192.168.1.189:1521:testdev
+#user = netschinaadmin
+#password = dreamtech
+#devMode = true
+#jdbcDriver=oracle.jdbc.driver.OracleDriver
