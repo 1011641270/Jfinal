@@ -67,6 +67,7 @@ public class CoreConfig extends JFinalConfig {
 				getProperty("user"), getProperty("password"));
 		dp.addFilter(new StatFilter()); //sql监控
 		dp.addFilter(new WallFilter()); //防止sql注入
+		//dp.addFilter(new WebStatFilter());
 		WallFilter wall = new WallFilter();
 		wall.setDbType("mysql");  //mysql
 		dp.addFilter(wall);
