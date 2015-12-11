@@ -1,7 +1,7 @@
 
 use jfinal_demo;
 
-Create Table: CREATE TABLE `blog` (
+CREATE TABLE `blog` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(200) NOT NULL,
   `content` mediumtext NOT NULL,
@@ -17,3 +17,11 @@ Create Table: CREATE TABLE `blog` (
 |  4 | test 3                 | test 3                   |
 |  5 | test 4                 | test 4                   |
 +----+------------------------+--------------------------+
+
+
+CREATE TABLE `log` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `create_time` datetime NOT NULL,
+  `log` varchar(200) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=168 DEFAULT CHARSET=utf8
