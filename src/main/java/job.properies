@@ -1,3 +1,3 @@
 a.job=com.demo.jfinal.job.JobDemo
 a.cron=*/5 * * * * ?
-a.enable=false
+a.enable=true
