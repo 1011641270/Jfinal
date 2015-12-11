@@ -28,7 +28,6 @@ import com.jfinal.plugin.redis.RedisPlugin;
 
 /**
  * JFinal无需XML配置，所以操作都能通过编码完成
- * 
  * @author tian
  * @Time Dec 9, 2015 2:52:54 PM
  */
