@@ -16,9 +16,9 @@ CREATE TABLE `blog` (
 |  3 | test 2                 | test 2                   |
 |  4 | test 3                 | test 3                   |
 |  5 | test 4                 | test 4                   |
-+----+------------------------+
---------------------------+
++----+------------------------+--------------------------+
 
+==日志表==
 CREATE TABLE `log` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `create_time` datetime NOT NULL,
