@@ -18,7 +18,6 @@ CREATE TABLE `blog` (
 |  5 | test 4                 | test 4                   |
 +----+------------------------+--------------------------+
 
-
 CREATE TABLE `log` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `create_time` datetime NOT NULL,
