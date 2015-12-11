@@ -59,7 +59,7 @@ public class CoreConfig extends JFinalConfig {
 		
 	}
 
-	/** 插件配置 JFinal集成了很多插件：c3p0,redis,druid,quartz... **/
+	/** 插件配置 JFinal集成了很多插件：redis,druid,quartz... **/
 	@Override
 	public void configPlugin(Plugins me) {
 
